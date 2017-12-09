@@ -1,0 +1,151 @@
+body {background: #fff;}
+
+div.guide {position: fixed;top: 0;left: 0;width: 100%;height: 100px;z-index: 5;background: #0457B7;opacity: 0.8}
+div.guide img.logo {left: 15px;top: 28px;position: absolute;}
+div.guide ul {color:#fff;float: right;}
+div.guide ul li {float: right;width: 124px;height: 16px;text-align: center;line-height: 16px;font-size: 16px;border-right: 1px solid #fff;margin-top: 33.5px;}
+div.guide ul li.noneborder {border-right: none}
+
+header {width: 100%;height: 650px;overflow: hidden;}
+header .page1 {opacity: 1;transition: 1s}
+header .page2 {opacity:  0;transition: 1s}
+header video {position: absolute;left: 50%;margin-left: -960px;top: 0;width: 1920px;z-index: -2;}
+header img.banner_logo {position: absolute;left: 452px;top: 270px;}
+header img.banner_txt {position: absolute;left: 241px;top: 350px;}
+header img.planet {position: absolute;left: 50%;margin-left: -960px;top: 0;width: 1920px;z-index: -2;}
+header img.planet2 {display: none}
+header img.planet2bg {display: none}
+header div.positionhelp {position: absolute;left: 580px;top:600px;}
+header div.btn1 {width: 45px;height: 10px;background: #fff;border-radius: 10px;transition: 1s;float: left;margin-right: 10px;opacity:1}
+header div.btn2 {width: 10px;height: 10px;background: #fff;border-radius: 10px;transition: 1s;float: right;opacity: 0.5}
+
+div.contain {width: 100%;height: 520px;margin-top: 30px;background: #fff;}
+div.contain ul li{width: 31%;height: 240px;float: left;font-size: 14px;line-height: 30px;margin-right: 2%;}
+div.contain ul li h1 {font-weight: 100;height: 45px;}
+div.contain ul li div {height: 28px;}
+
+div.footer {background: #ECF0F1;width: 100%;height: 300px;}
+	div.footer ul {width: 15%;height: 200px;padding-top: 30px;float: left;}
+	div.footer ul li {color:#9EA4A6;font-size: 14px;font-size: 16px;line-height: 30px;}
+	div.footer ul li h2 {font-weight: 100;height: 45px;color: #000}
+	div.footer img.footerlogo {float: right;position: absolute;top: 75px}
+	div.footer div.lastlinel {float: left;}
+	div.footer div.lastliner{float: right;}
+	div.footer div.footerclear {display: none;}
+
+div.contain2 {width: 100%;height: 2200px;}
+div.contain2 div.block {height: 120px;width: 100%;}
+div.contain2 div.blockl {height: 2200px;width: 200px;float: left;}
+div.contain2 div.left {height: 2200px;width: 200px;float: left;position: fixed;left:320px;top:130px;}
+div.contain2 div.left ul {float: left;}
+div.contain2 div.left ul li {height: 40px;width: 200px;font-size: 18px;text-align: right;border-top: 1px solid #F0F0F0;line-height: 40px;}
+div.contain2 div.right{float: left;padding-left: 30px;margin-right: 80px;margin-bottom: 50px;width: 351px;height: 350.7px;}
+div.contain2 h2 {font-weight: 500;height: 45px;color: #000}
+div.contain2 div.right dd {font-size: 16px;}
+div.contain2 div.right h2 {line-height: 40px;}
+div.contain2 div.right ul {margin-top: 10px;color:#5E6267;}
+div.contain2 div.right ul li {font-size: 12px;}
+div.contain2 div.line {width: 800px;border-top: 1px solid #eee;float: left;margin-left: 30px;}
+div.contain2 div.fontc {color:#5E6267;font-size: 12px;height: 500px;line-height: 20px;}
+div.contain2 div.fontc img.tallbuilding {width: 800px}
+div.contain2 div.right2{float: left;padding-left: 30px;margin-right: 80px;margin-bottom: 50px;width: 351px;height: 240px;}
+div.contain2 div.right2 dd {font-size: 16px;}
+div.contain2 div.right2 h2 {line-height: 40px;}
+div.contain2 div.right2 ul {margin-top: 10px;color:#5E6267;}
+div.contain2 div.right2 ul li {font-size: 12px;}
+
+div.contain3 {width: 100%;height: 1050px;}
+div.contain3 div.block {height: 120px;width: 100%;}
+div.contain3 div.blockl {height: 1050px;width: 200px;float: left;}
+div.contain3 div.left {height: 500px;width: 200px;float: left;position: fixed;left:320px;top:130px;}
+div.contain3 div.left ul {float: left;}
+div.contain3 div.left ul li {height: 40px;width: 200px;font-size: 18px;text-align: right;border-top: 1px solid #F0F0F0;line-height: 40px;}
+div.contain3 div.right{float: left;padding-left: 50px;margin-right: 80px;margin-bottom: 50px;width: 700px;height: 180px;}
+div.contain3 div.titler{margin-left: 20px;padding-top: 3px;}
+div.contain3 div.titler p {line-height: 25px;font-size: 14px;color:#999999;}
+div.contain3 div.text {margin-top: 20px;font-size: 14px;color:#5E6267;line-height: 32px;}
+
+
+
+@media screen and (max-width: 500px) {
+	.center {width: 100%}
+
+    div.guide {position: fixed;top: 0;left: 0;width: 100%;height: 100px;z-index: 5;background: #0457B7;opacity: 0.8}
+	div.guide img.logo {left: 15px;top: 28px;position: absolute;}
+	div.guide ul {color:#fff;float: left;margin-top: 40px;}
+	div.guide ul li {float: right;width: 90px;height: 16px;text-align: center;line-height: 16px;font-size: 16px;border-right: 1px solid #fff;margin-top: 33.5px;}
+	div.guide ul li.noneborder {border-right: none}
+
+	header {width: 100%;height:400px;overflow: hidden;}
+	header .page1 {opacity: 1;transition: 1s}
+	header .page2 {opacity:  0;transition: 1s}
+	header video {position: absolute;left: 50%;margin-left: -960px;top: 0;width: 1920px;z-index: -2;}
+	header img.banner_logo {position: absolute;left: 0;top: 200px;width: 100%}
+	header img.banner_txt {position: absolute;left:0;top: 250px;width: 100%}
+	header img.planet {position: absolute;left: 50%;margin-left: -960px;top: 0;width: 1920px;z-index: -2;display: none}
+	header img.planet2 {display: block;position: absolute;left: -1%;top: 100px;background: #0457B7;width: 100%;}
+	header img.planet2bg {display: block;width: 100%;position: absolute;left: 0;top: 100px;}
+	header div.positionhelp {position: absolute;left: 580px;top:600px;}
+	header div.btn1 {width: 45px;height: 10px;background: #fff;border-radius: 10px;transition: 1s;float: left;margin-right: 10px;opacity:1}
+	header div.btn2 {width: 10px;height: 10px;background: #fff;border-radius: 10px;transition: 1s;float: right;opacity: 0.5}
+
+
+	div.contain {width: 100%;height: 1500px;margin-top: 30px;background: #fff;}
+	div.contain ul {float: left;padding-left:5%;}
+	div.contain ul li{width: 100%;height: 240px;float: left;font-size: 14px;line-height: 30px;margin-right: 2%;}
+	div.contain ul li h1 {font-weight: 100;height: 45px;}
+	div.contain ul li div {height: 28px;}
+	div.contain ul li img {width: 95%;}
+
+	div.contain2 {width: 100%;height: 3250px;}
+	div.contain2 div.block {height: 120px;width: 100%;}
+	div.contain2 div.blockl {height: 2200px;width: 200px;float: left;display: none}
+	div.contain2 div.left {height: 2200px;width: 200px;float: left;position: fixed;left:320px;top:130px;display: none}
+	div.contain2 div.left ul {float: left;}
+	div.contain2 div.left ul li {height: 40px;width: 200px;font-size: 18px;text-align: right;border-top: 1px solid #F0F0F0;line-height: 40px;}
+	div.contain2 div.right{float: left;padding-left: 2%;margin-right: 80px;margin-bottom: 50px;width: 351px;height: 350.7px;}
+	div.contain2 h2 {font-weight: 500;height: 45px;color: #000}
+	div.contain2 div.right dd {font-size: 16px;}
+	div.contain2 div.right h2 {line-height: 40px;}
+	div.contain2 div.right ul {margin-top: 10px;color:#5E6267;}
+	div.contain2 div.right ul li {font-size: 12px;}
+	div.contain2 div.line {width: 95%;border-top: 1px solid #eee;float: left;margin-left: 0;}
+	div.contain2 div.fontc {color:#5E6267;font-size: 12px;height: 240px;line-height: 20px;}
+	div.contain2 div.fontc img.tallbuilding {width: 98%}
+	div.contain2 div.right2{float: left;padding-left: 2%;margin-right: 80px;margin-bottom: 50px;width: 351px;height: 240px;}
+	div.contain2 div.right2 dd {font-size: 16px;}
+	div.contain2 div.right2 h2 {line-height: 40px;}
+	div.contain2 div.right2 ul {margin-top: 10px;color:#5E6267;}
+	div.contain2 div.right2 ul li {font-size: 12px;}
+
+	div.contain3 {width: 100%;height: 1130px;}
+	div.contain3 div.block {height: 120px;width: 100%;}
+	div.contain3 div.blockl {height: 2200px;width: 200px;float: left;display: none;}
+	div.contain3 div.left {height: 500px;width: 200px;float: left;position: fixed;left:320px;top:130px;display: none}
+	div.contain3 div.left ul {float: left;}
+	div.contain3 div.left ul li {height: 40px;width: 200px;font-size: 18px;text-align: right;border-top: 1px solid #F0F0F0;line-height: 40px;}
+	div.contain3 div.right{float: left;padding-left: 2%;margin-right: 80px;margin-bottom: 50px;width: 95%;height: 200px;}
+	div.contain3 div.titler{margin-left: 20px;padding-top: 3px;}
+	div.contain3 div.titler p {line-height: 25px;font-size: 14px;color:#999999;}
+	div.contain3 div.text {margin-top: 20px;font-size: 14px;color:#5E6267;line-height: 32px;}
+
+
+
+
+
+
+
+
+	div.footer {background: #ECF0F1;width: 100%;height: 450px;}
+	div.footer ul {width: 100%;height: 40px;padding-top: 30px;float: left;}
+	div.footer ul li {color:#9EA4A6;font-size: 14px;font-size: 16px;line-height: 30px;float: left;margin-right: 10px;}
+	div.footer ul li h2 {font-weight: 100;height: 30px;color: #000}
+	div.footer img.footerlogo {float: right;position: absolute;top: 75px;display: none}
+	div.footer div.lastlinel {float: left;margin-top: 30px;}
+	div.footer div.lastliner{float: right;}
+	div.footer div.footerclear {display: block;}
+
+
+
+
+}
